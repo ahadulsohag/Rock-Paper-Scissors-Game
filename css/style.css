@@ -1,0 +1,60 @@
+.headline {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 28px;
+  margin-top: 26px;
+  font-weight: 500;
+}
+.rock-emoji {
+  width: 52px;
+}
+.rock-emoji-button {
+  background-color: rgb(15, 15, 15);
+  border: solid 3px white;
+  width: 128px;
+  height: 128px;
+  border-radius: 64px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.paper-emoji {
+  width: 52px;
+}
+.paper-emoji-button {
+  background-color: rgb(15, 15, 15);
+  border: solid 3px white;
+  width: 128px;
+  height: 128px;
+  border-radius: 64px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.scissors-emoji {
+     width: 52px;
+}
+
+.scissors-emoji-button {
+  background-color: rgb(15, 15, 15);
+  border: solid 3px white;
+  width: 128px;
+  height: 128px;
+  border-radius: 64px;
+  cursor: pointer;
+}
+
+.reset-button {
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  cursor: pointer;
+
+}
+.score{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin-top: 26px;
+    margin-bottom: 12px;
+}
