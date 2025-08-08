@@ -6,15 +6,16 @@
 </head>
 
 <body>
-    <script>
-        anObject = {
-            name: 'sohag',
-            age: 24,
-            fun: function aFunction() {
-                console.log('method under an object!');
-            }
+    <button class="btn" onclick="
+        const pre = document.querySelector('.btn').innerHTML;
+        if(pre === 'Subscribe'){
+            document.querySelector('.btn').innerHTML = 'Subscribed'
+        }else if(pre === 'Subscribed'){
+            document.querySelector('.btn').innerHTML = 'Subscribe'
         }
-        console.log(anObject);
+        ">Subscribe</button>
+    <script>
+
     </script>
 </body>
 
