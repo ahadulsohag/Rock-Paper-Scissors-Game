@@ -3,19 +3,41 @@
 
 <head>
     <title>test</title>
+    <style>
+        .btn {
+            padding: 4px 8px;
+            width: 120px;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 
 <body>
     <button class="btn" onclick="
-        const pre = document.querySelector('.btn').innerHTML;
-        if(pre === 'Subscribe'){
-            document.querySelector('.btn').innerHTML = 'Subscribed'
-        }else if(pre === 'Subscribed'){
-            document.querySelector('.btn').innerHTML = 'Subscribe'
-        }
-        ">Subscribe</button>
-    <script>
+            const pre = document.querySelector('.btn').innerHTML;
+            if(pre === 'Subscribe'){
+                document.querySelector('.btn').innerHTML = 'Subscribed'
+            }else if(pre === 'Subscribed'){
+                document.querySelector('.btn').innerHTML = 'Subscribe'
+            }
+            ">Subscribe</button>
+    <p>Amazon Shipping Calculator</p>
+    <p>Orders under $40 = +$10 shipping.</p>
+    <p>Orders over $40 = Free shipping.</p>
+    <input class="js-input" placeholder="price">
+    <button onclick="
+    
+    "> Calculate</button>
 
+    <script>
+        function getData(){
+            document.querySelector('.js-input')
+        }
+        if (document.querySelector('js-input').innerHTML === Number) {
+            if (document.querySelector('.js-input').innerHTML < 40) {
+                console.log('I did it');
+            }
+        }
     </script>
 </body>
 
