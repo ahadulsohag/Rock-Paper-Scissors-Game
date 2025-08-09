@@ -9,6 +9,12 @@
             width: 120px;
             margin-bottom: 30px;
         }
+        .js-input{
+            padding: 8px 18px;
+        }
+        .calc-btn{
+            padding: 8px;
+        }
     </style>
 </head>
 
@@ -26,18 +32,20 @@
     <p>Orders over $40 = Free shipping.</p>
     <input class="js-input" placeholder="price">
     <button onclick="
-    
-    "> Calculate</button>
+    getData();
+    " class="calc-btn"> Calculate</button>
 
     <script>
         function getData(){
-            document.querySelector('.js-input')
+            const data = document.querySelector('.js-input').innerHTML;
+            console.log('data')
         }
         if (document.querySelector('js-input').innerHTML === Number) {
             if (document.querySelector('.js-input').innerHTML < 40) {
                 console.log('I did it');
             }
         }
+        
     </script>
 </body>
 
